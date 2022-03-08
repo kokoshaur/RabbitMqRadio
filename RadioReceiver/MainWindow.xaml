@@ -1,0 +1,14 @@
+﻿<Window x:Class="RadioReceiver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioReceiver"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="RadioOn" Content="Подключиться" HorizontalAlignment="Left" Margin="284,240,0,0" VerticalAlignment="Top" Click="RadioOn_Click"/>
+        <TextBlock x:Name="show" HorizontalAlignment="Left" Margin="71,59,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
